@@ -1,4 +1,4 @@
 flask
-tensorflow
-opencv-python
 numpy
+opencv-python
+tensorflow==2.13.0
