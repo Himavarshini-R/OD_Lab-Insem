@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Waste Detection</title>
+</head>
+<body>
+
+<h2>Waste Detection System</h2>
+
+<form method="POST" enctype="multipart/form-data">
+<input type="file" name="file">
+<input type="submit" value="Detect">
+</form>
+
+{% if label %}
+<h3>Detected Waste: {{label}}</h3>
+<img src="{{image}}" width="300">
+{% endif %}
+
+</body>
+</html>
